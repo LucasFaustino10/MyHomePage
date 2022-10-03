@@ -1,0 +1,52 @@
+@media screen and (min-width: 0) {
+     .secaoDiferenciais{
+          background-color: var(--cinza);
+     }
+    .diferenciais{
+        text-align: center;
+    }
+    .diferenciais__diferencial{
+        margin: 0 3em 2em 3em;
+        display: inline-block;
+        vertical-align: top;
+        text-align: left;
+        max-width: 350px;
+        padding-left: 4em;
+     }
+   .diferenciais__diferencial-titulo{
+        color: var(--branco);
+        font-size: 1.2em;
+        margin-top: .9em;
+        margin-bottom: .6em;
+
+        background-repeat: no-repeat;
+        background-position: left center;
+        height: 2.5em;
+        padding-left: 42px;
+        padding-top: .5em;
+        transform: translateX(-46px);
+        text-transform: uppercase;
+   }
+   .diferenciais__diferencial-suporte{
+        background-image: url(../imagens/suporte.svg);
+   }
+   .diferenciais__diferencial-design{
+        background-image: url(../imagens/design.svg);
+   }
+    .diferenciais__diferencial-boasPraticas{
+        background-image: url(../imagens/boas-praticas.svg);
+   }
+   .diferenciais__diferencial-ux{
+        background-image: url(../imagens/ux.svg);
+   }
+}
+@media screen and (min-width: 830px) {
+     .secaoDiferenciais{
+          padding-bottom: 0;
+     }
+     .diferenciais__diferencial{
+          margin: 0 .5em;
+          font-size: 1.2em;
+          max-width: 260px;
+     }
+}

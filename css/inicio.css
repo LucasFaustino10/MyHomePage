@@ -1,0 +1,60 @@
+@media screen and (min-width: 0px) {
+     .secaoInicio{
+          text-align: center;
+          background-size: cover;
+          padding: 4em 2em 3em 2em;
+     }
+     .inicio__introducao-titulo{
+          font-size: 2em;
+          font-weight: bold;
+          line-height: 1;
+          margin-bottom: 1em;
+     }
+     .inicio__introducao-descricao{
+        max-width: 600px;
+        margin: 0 auto 2em auto;
+        font-size: 1.25em;
+        font-weight: normal;
+     }
+     .inicio__nav-btn{
+          display: block;
+          font-size: 1em;
+          line-height: 2.5;
+          margin: 1em auto;
+          max-width: 300px;
+          padding: .3em 1em;
+          transition: .2s ease-in;
+          width: 100%;
+     }
+     .btn-projetos{
+          background-color: var(--preto);
+          color: var(--mostarda);
+     }
+     .inicio__nav-btn:hover,
+     .inicio__nav-btn:focus{
+          background: var(--branco);
+     }
+
+}
+@media screen and (min-width: 830px) {
+     .secaoInicio{
+          background-image: url(/imagens/inicio-fundo.svg);
+     }
+     .inicio__nav-btn{
+          font-size: 1.5em;
+          max-width: 450px;
+          padding: .6em 1em;
+     }
+     .inicio__introducao-descricao{
+          font-size: 1.8em;
+          max-width: 800px;
+     }
+}
+@media screen and (min-width: 1065px) {
+     .secaoInicio{
+     padding: 8em 2em 3em 2em;
+     }
+     .inicio__introducao-titulo{
+     font-size: 3vw;
+     } 
+}

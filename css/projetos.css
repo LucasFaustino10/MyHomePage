@@ -1,0 +1,76 @@
+@media  screen and (min-width: 0) {
+    .secaoProjetos{
+      text-align: center;
+    }
+    .projetos__apresentacao{
+      font-size: 1.2em;
+      font-weight: 100;
+      margin-bottom: 1em;
+    }
+    .listaDeProjetos{ /*ul*/
+      overflow: hidden;
+      white-space: nowrap;
+    }
+    .listaDeProjetos-item{/*li*/
+      display: inline-block;
+      margin: 0 auto;
+      text-align: center;
+      width: 100%;
+      display: none;
+    }
+    .listaDeProjetos-item:not(:target):first-child{
+      display: inline-block;
+    }
+    .listaDeProjetos-item:target{
+      display: inline-block;
+    }
+    .slide{
+      text-align: left;
+      padding-bottom: 2em;
+      max-width: 815px;
+      display: inline-block;
+      white-space: nowrap;
+    }
+    .slide__capa{
+      width: 100%;
+      display: block;
+    }
+    .slide__titulo{
+      margin: .7em 0;
+      font-weight: bold
+    }
+    .listaDeProjetos-slider{
+      width: 70%;
+      margin: 0 auto;
+    }
+    .listaDeProjetos-slider li{
+      display: inline-block;
+    }
+    .listaDeProjetos-slider-item{
+      text-indent: -9999px;
+      display: inline-block;
+      overflow: hidden;
+      background-color: var(--mostarda);
+      border-radius: 50%;
+      width: 25px;
+      height: 25px;
+      margin: 0 .5em;
+      border: 0;
+    }
+    .listaDeProjetos-slider-item:hover,
+    .listaDeProjetos-slider-item:focus{
+      background-color: var(--branco);
+      outline: 0;
+    }
+}
+@media  screen and (min-width: 1065px) {
+  .projetos__apresentacao{
+    font-size: 1.8em;
+  }
+  .slide__titulo{
+    font-size: 1.8em;
+  }
+  .slide__descricao{
+    font-size: 1.2em;
+  }
+}

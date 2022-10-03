@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="./css/reset.css">
+        <link rel="stylesheet" href="./css/root.css">
+        <link rel="stylesheet" href="./css/cabecalho.css">
+        <link rel="stylesheet" href="./css/inicio.css">
+        <link rel="stylesheet" href="./css/diferenciais.css">
+        <link rel="stylesheet" href="./css/projetos.css">
+        <link rel="stylesheet" href="./css/sobre.css">
+        <link rel="stylesheet" href="./css/secaoContato.css">
+        <link rel="stylesheet" href="./css/contatoCampo.css">   
+        <link rel="stylesheet" href="./css/formContato.css">             
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;700&family=Open+Sans:wght@300;400;700&family=Raleway:wght@400;500;700&display=swap" rel="stylesheet">    <title>Lucas Faustino</title>
+        </head>
+    <body>
+        <header id="cabecalho" class="titulo">
+            <a class="logo"><img src="./imagens/logo-talus.svg" alt="Logo da minha empresa Talus"></a>
+            <nav id="nav">
+                <button id="btn-mobile" aria-label="Abrir Menu" aria-haspopup="true" aria-controls="nav__menu" aria-expanded="false">
+                    <span id="hamburger"></span>
+                </button>
+                <ul class="nav__menu" role="menu">
+                    <li class="nav__menu-link"><a href="#">Sobre</a></li>
+                    <li class="nav__menu-link"><a href="#">Projetos</a></li>
+                    <li class="nav__menu-link"><a href="#">Contato</a></li>
+                    <li class="nav__menu-link"><a href="#">Suporte</a></li>
+                    <li class="nav__menu-link"><a href="#">Blog</a></li>
+                </ul>
+            </nav>
+        </header>    
+            <main class="conteudo">
+                <section class="secaoInicio">
+                        <h1 class="inicio__introducao-titulo">
+                            Desenvolvimento de aplicações web e mobile
+                        </h1>
+                        <h2 class="inicio__introducao-descricao">
+                            Aplicações completas, elegantes, com qualidade de códigos e otimizadas para SEO
+                        </h2>
+                        <a href="#projetos">
+                            <button class="btn inicio__nav-btn" >
+                                Projetos
+                            </button>
+                        </a>
+                        <a href="#secaoSobre">
+                            <button class="btn inicio__nav-btn btn-projetos">
+                                Sobre o dev
+                            </button>
+                        </a>
+                </section>
+                <section class="secaoDiferenciais secao">
+                    <div class="container">
+                        <ul class="diferenciais">
+                            <li class="diferenciais__diferencial">
+                                <h2 class="diferenciais__diferencial-titulo diferenciais__diferencial-suporte">
+                                    Suporte
+                                </h2>
+                                <p class="diferenciais__diferencial-descricao">
+                                    Tempo é importante! Trabalhamos em ritmo acelerado, atendendo rigorosamente os prazos.
+                                </p>
+                            </li>
+                            <li class="diferenciais__diferencial">
+                                <h2 class="diferenciais__diferencial-titulo diferenciais__diferencial-design">
+                                    Design
+                                </h2>
+                                <p class="diferenciais__diferencial-descricao">
+                                    Tempo é importante! Trabalhamos em ritmo acelerado, atendendo rigorosamente os prazos.
+                                </p>
+                            </li>
+                            <li class="diferenciais__diferencial">
+                                <h2 class="diferenciais__diferencial-titulo diferenciais__diferencial-boasPraticas">
+                                    Boas Práticas
+                                </h2>
+                                <p class="diferenciais__diferencial-descricao">
+                                    Tempo é importante! Trabalhamos em ritmo acelerado, atendendo rigorosamente os prazos.
+                                </p>
+                            </li>
+                            <li class="diferenciais__diferencial">
+                                <h2 class="diferenciais__diferencial-titulo diferenciais__diferencial-ux">
+                                    UX
+                                </h2>
+                                <p class="diferenciais__diferencial-descricao">
+                                    Tempo é importante! Trabalhamos em ritmo acelerado, atendendo rigorosamente os prazos.
+                                </p>
+                            </li>
+                        </ul>
+                    </div>
+                </section>
+                <section id="secaoSobre" class="secaoSobre clearfix">
+                    <h2 class="titulo">Sobre o desenvolvedor</h2>
+                    <div class="container sobre__conteudo">
+                        <img class="secaoSobre-imgDestaque" src="./imagens/foto-dev.png" alt="">
+                        <p class="sobre__descricao">Sou o Lucas, desenvolvedor Full Stack com foco em desenvolvimento Front End.</p>
+                        <p class="sobre__descricao">
+                            A Talus é meu projeto para ajudar pequenos e médios empreendedores a colocarem seus negócios online. Formado em engenharia aeronáutica e especialista em gestão de projetos, procuro unir a eficiência e elegância da aviação a enorme capacidade de gerar valor da metodologia ágil, em especial o scrum.
+                        </p>
+                        <p class="sobre__descricao">
+                            A melhor maneira de prever o futuro é criá-lo!    
+                        </p>
+                        <ul class="secaoSobre-redesSociais">
+                            <li><img src="./imagens/github.svg" alt="Ícone do Instagram"></li>
+                            <li><img src="./imagens/linkedin.svg" alt="Ícone do Linkedin"></li>
+                            <li><img src="./imagens/github.svg" alt="Ícone do Github"></li>
+                        </ul>
+                    </div>
+                    <button class="btn sobre__nav-btn">Saber mais</button>
+                </section>
+                <section id="projetos" class="secaoProjetos">
+                    <h2 class="titulo">Projetos</h2>
+                    <div class="container">
+                        <h3 class="projetos__apresentacao">Conheça alguns de nossos projetos e fique a vontade para escolher seu modelo.</h3>
+                        <ul class="listaDeProjetos">
+                            <li id="projeto1" class="listaDeProjetos-item">
+                                <article  class="slide">
+                                    <img class="slide__capa" src="./imagens/capa-copa.png" alt="capa de Stranger Things">
+                                    <h3 class="slide__titulo">Stranger Things</h3>
+                                    <p class="slide__descricao">HTML | CSS | JavaScript</p>
+                                </article>
+                            </li>
+                            <li  id="projeto2" class="listaDeProjetos-item">
+                                <article  class="slide">
+                                    <img class="slide__capa" src="./imagens/strangeThings.jpg" alt="capa de Stranger Things">
+                                    <h3 class="slide__titulo">Próximo Projeto</h3>
+                                    <p class="slide__descricao">HTML | CSS | JavaScript</p>
+                                </article>
+                            </li>
+                        </ul>
+                        <nav>
+                            <ul class="listaDeProjetos-slider">
+                                <li>
+                                    <a href="#projeto1" data-sliderItem="0" class="listaDeProjetos-slider-item listaDeProjetos-slider-item--ativo">Projeto 1</a>
+                                </li>
+                                <li>
+                                    <a href="#projeto2" data-sliderItem="1" class="listaDeProjetos-slider-item">Projeto 2</a>
+                                </li>
+                            </ul>
+                        </nav>
+                    </div>
+                </section>
+                <section class="secaoContato secao">
+                    <h2 class="titulo">
+                        Contato
+                    </h2>
+                    <div class="container">
+                        <form action="secaoContato-form">
+                            <fieldset>
+                                <legend class="secaoContato-form-legend">
+                                    Oi, tudo bem? Fale com a gente!
+                                    Preencha seus dados e sua mensagem:
+                                </legend>
+                                <div class="contatoCampo contatoCampo--sucesso">
+                                    <label for="nome">Nome: </label>
+                                    <input id="nome" type="text" class="ContatoCampo--validouFoi" value="Lucas Faustino" required>
+                                </div>
+                                <div class="contatoCampo contatoCampo--erro">
+                                    <label for="email">Email: </label>
+                                    <input id="email" type="email" class="contatoCampo--validouErro" placeholder="nome@email.com" required>
+                                    <span class="contatoCampo-msg contatoCampo-msg--erro">
+                                        Você quis dizer <a href="#">gmail.com?</a>
+                                    </span>
+                                </div>
+                                <div class="contatoCampo contatoCampo--erro">
+                                    <label  for="telefone">Telefone: </label>
+                                    <input id="telefone" type="tel" class="contatoCampo--validouErro" placeholder="(11) 5571-2751" >
+                                    <span class="contatoCamp-msg contatoCampo-msg--erro">
+                                        Faltou o DDD
+                                    </span>
+                                </div>
+                                <div class="contatoCampo">
+                                    <label for="mensagem">Mensagem: </label>
+                                    <textarea id="mensagem" name="" cols="30" rows="10" required></textarea>
+                                </div>
+                                <div class="contatoCampo">
+                                    <button class="btn secaoContato-form-cta" type="submit">Enviar</button>
+                                    <span class="contatoCampo-msg contatoCampo-msg--erro secaoContatoForm-validacao">Verifique os erros acima</span>
+                                </div>
+                            </fieldset>
+                        </form>
+                    </div>
+                </section>
+            </main>
+            <footer>
+                <div>
+                    <p>&copy;by Lucas Faustino - 2022</p>
+                </div>
+            </footer>
+    </body>
+    <script src="./js/menu-cabecalho.js"></script>
+    <script src="./js/carousel.js"></script>
+</html>

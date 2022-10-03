@@ -1,0 +1,27 @@
+@media screen and (min-width: 0){
+    .secaoContato-form-legend{
+        font-size: 1.2em;
+        line-height: 1.6;
+        margin: 0 auto;
+        max-width: 400px;
+    }
+    .secaoContato-form-cta{
+        max-width: 300px;
+        width: 100%;
+        margin-top: 1em;
+        display: block;
+        font-size: 1em;
+        line-height: 2.5;
+        padding: .3em 1em;
+        transition: .2s ease-in;
+    }
+    .secaoContato-form-cta:hover,
+    .secaoContato-form-cta:focus{
+      background: var(--branco);
+    }
+}
+@media screen and (min-width: 1065px){
+    .secaoContato-form-legend{
+        font-size: 1.8em;
+    }
+}
